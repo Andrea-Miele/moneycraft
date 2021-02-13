@@ -139,5 +139,5 @@ def main():
     application.listen(int(os.environ.get("PORT", 8080)))
     tornado.ioloop.IOLoop.instance().start()
 ################################################
- import micropip
-      micropip.install('tornado').then(main)
+import micropip
+    micropip.install('tornado').then(main)
